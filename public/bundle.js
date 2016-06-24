@@ -19799,8 +19799,16 @@
 	      React.createElement(
 	        'div',
 	        null,
-	        React.createElement('input', { type: 'text', ref: 'name', placeholder: 'What is your name?' }),
-	        React.createElement('textarea', { ref: 'message', placeholder: 'Enter message' }),
+	        React.createElement('input', { type: 'text', ref: 'name', placeholder: 'What is your name?' })
+	      ),
+	      React.createElement(
+	        'div',
+	        null,
+	        React.createElement('textarea', { ref: 'message', placeholder: 'Enter message' })
+	      ),
+	      React.createElement(
+	        'div',
+	        null,
 	        React.createElement(
 	          'button',
 	          null,
